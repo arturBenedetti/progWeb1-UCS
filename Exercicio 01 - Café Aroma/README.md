@@ -6,14 +6,14 @@ A página deve usar tags semânticos, imagem, links internos e externos, lista e
 
 Requisitos
 
-<header> com o nome da cafeteria e um menu de navegação (<nav>).
+tag header com o nome da cafeteria e um menu de navegação (tag nav).
 
-<main> dividido em seções (<section>) para:
+tag main dividido em seções (tag section) para:
 
 Apresentação
 Cardápio
 Contato
-<footer> com informações de direitos autorais e link para redes sociais.
+tag footer com informações de direitos autorais e link para redes sociais.
 
 Links internos e externos
 
@@ -30,8 +30,8 @@ Lista não ordenada com os tipos de cafés oferecidos.
 Tabela
 
 Tabela com três colunas: Produto, Descrição e Preço.
-Cabeçalho (<thead>) e corpo (<tbody>)
+Cabeçalho (tag thead) e corpo (tag tbody)
 Outros atributos sugeridos
 
-lang="pt-BR" no elemento <html>.
+lang="pt-BR" no elemento tag html.
 meta charset="UTF-8" e meta name="viewport" content="width=device-width, initial-scale=1.0".
