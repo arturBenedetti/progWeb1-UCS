@@ -52,17 +52,25 @@ header {
 #title-cafes {
     display: flex;
     justify-content: center;
+    align-items: center;
     height: 10vh;
 }
 
 h3 {
     font-size: 30px;
     text-decoration: underline;
+    margin: 20px 0px 3px 0px;
 }
 
 .cafes-container {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cafes-container li {
+    font-size: 20px;
 }
 
 #tabela-cafes {
@@ -99,8 +107,33 @@ h3 {
 }
 
 .quem-somos-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quem-somos-container p {
     width: 50vw;
+    font-size: 20px;
+}
+
+#imagem-cafeteria {
+    width: 30%;
+    height: 30%;
+    padding-bottom: 15px;
+}
+
+.contato-container {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
