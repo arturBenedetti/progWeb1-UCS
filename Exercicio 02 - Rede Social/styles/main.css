@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+}
+
+h3 {
+    margin: 0;
+}
+
+.container {
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+#header-pagina {
+    background-color: cornflowerblue;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+#header-pagina h3 {
+    padding-left: 50px;
+    font-size: 40px;
+    color: white;
+}
+
+#container-conteudo {
+    margin: 0px 150px;
+    height: 90vh;
+    width: 70vw;
+    border: 1px solid;
+    border-color: black;
+}
