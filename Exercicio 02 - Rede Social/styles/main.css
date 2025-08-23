@@ -9,6 +9,7 @@ h3 {
 .container {
     overflow-y: auto;
     overflow-x: auto;
+    background-color: lightgrey;
 }
 
 #header-pagina {
@@ -25,9 +26,65 @@ h3 {
 }
 
 #container-conteudo {
-    margin: 0px 150px;
+    margin: 0px 180px;
     height: 90vh;
     width: 70vw;
-    border: 1px solid;
-    border-color: black;
+    /* border: 1px solid;
+    border-color: black; */
+}
+
+.faca-postagem {
+    margin-top: 10px;
+}
+
+.faca-postagem input {
+    width: 50vw;
+    height: 8vh;
+}
+
+.postagem {
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 15px;
+    padding-bottom: 15px;
+}
+
+.texto-postagem {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.foto-postagem {
+    margin-left: 10px;
+}
+
+.dados-pessoa {
+    display: flex;
+    flex-direction: row;
+}
+
+.dados-pessoa p {
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+.campo-adicionar-comentario {
+    margin-left: 10px;
+}
+
+label {
+    font-size: 15px;
+}
+
+.form-comentario {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+}
+
+.input-e-botao {
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+    align-items: center;
 }
